@@ -369,6 +369,15 @@ To set up your environment to develop this theme, run `script/bootstrap`.
 
 To test your theme, run `script/server` (or `bundle exec jekyll serve`) and open your browser at `http://localhost:4000`. This starts a Jekyll server using your theme and the contents. As you make modifications, your site will regenerate and you should see the changes in the browser after a refresh.
 
+<!-- 
+### Docker commands
+
+``` docker
+docker run -td -v C:/src/vivek4integration.github.io:/src/site -p 4000:4000 -p 4080:4080 integration_notes_site_local
+``` 
+Run the watcher which watch for file change and builds the site, if it encounters one.
+-->
+
 ## License
 
 The theme is available as open source under the terms of the [MIT License](http://opensource.org/licenses/MIT).
